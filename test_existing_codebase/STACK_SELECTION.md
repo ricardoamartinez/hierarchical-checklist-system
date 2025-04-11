@@ -1,0 +1,5 @@
+"# Stack Selection" 
+"## Selected Stack: JS/TS (Next.js + Express)" 
+"## Required Dependencies" 
+"- Node.js v18+" 
+"- TypeScript" 

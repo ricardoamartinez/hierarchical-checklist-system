@@ -1,0 +1,21 @@
+{
+  "test_name": "render_voxel_test",
+  "expected_logs": [
+    "Initializing OpenGL context...",
+    "Loading voxel data...",
+    "Setting up render pipeline...",
+    "Drawing frame..."
+  ],
+  "expected_return_code": 0,
+  "expected_frame_count": 1,
+  "validation_commands": [
+    "python tests/test_renderer.py --verbose",
+    "python tools/validate_pixel_output.py --reference=expected/reference_image.png"
+  ],
+  "success_criteria": {
+    "logs_contain_all": true,
+    "return_code_matches": true,
+    "frame_count_greater_than_zero": true,
+    "pixel_diff_below_threshold": true
+  }
+}
