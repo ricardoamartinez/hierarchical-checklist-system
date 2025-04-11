@@ -1,0 +1,67 @@
+# Command Execution Log
+[2025-04-11T15:58:39.997212] echo "Selecting JS/TS stack" > STACK_SELECTION.md
+STDOUT:
+
+Return code: 0
+
+[2025-04-11T15:59:04.885470] type STACK_SELECTION.md
+STDOUT:
+"Selecting JS/TS stack" 
+
+Return code: 0
+
+[2025-04-11T16:00:08.389167] powershell -Command "(Get-Content -Path 'C:\Users\ricardo\Documents\checklist-master\hierarchical_checklists\steps\STEP_01__Choose_Stack_and_Framework.md') -replace '- \[ \] JS/TS \(Next.js \+ Express\)', '- [x] JS/TS (Next.js + Express)' | Set-Content -Path 'C:\Users\ricardo\Documents\checklist-master\hierarchical_checklists\steps\STEP_01__Choose_Stack_and_Framework.md'"
+STDOUT:
+
+Return code: 0
+
+[2025-04-11T16:00:29.601502] powershell -Command "(Get-Content -Path 'C:\Users\ricardo\Documents\checklist-master\hierarchical_checklists\steps\STEP_01__Choose_Stack_and_Framework.md') -replace '- \[ \] One stack option is selected', '- [x] One stack option is selected' | Set-Content -Path 'C:\Users\ricardo\Documents\checklist-master\hierarchical_checklists\steps\STEP_01__Choose_Stack_and_Framework.md'"
+STDOUT:
+
+Return code: 0
+
+[2025-04-11T16:00:51.461380] powershell -Command "(Get-Content -Path 'C:\Users\ricardo\Documents\checklist-master\hierarchical_checklists\steps\STEP_01__Choose_Stack_and_Framework.md') -replace '- \[ \] Selection is documented in', '- [x] Selection is documented in' | Set-Content -Path 'C:\Users\ricardo\Documents\checklist-master\hierarchical_checklists\steps\STEP_01__Choose_Stack_and_Framework.md'"
+STDOUT:
+
+Return code: 0
+
+[2025-04-11T16:02:01.936669] powershell -Command "(Get-Content -Path 'C:\Users\ricardo\Documents\checklist-master\hierarchical_checklists\steps\STEP_01__Choose_Stack_and_Framework.md') -replace '- \[ \] Required dependencies are listed', '- [x] Required dependencies are listed' | Set-Content -Path 'C:\Users\ricardo\Documents\checklist-master\hierarchical_checklists\steps\STEP_01__Choose_Stack_and_Framework.md'"
+STDOUT:
+
+Return code: 0
+
+[2025-04-11T16:04:07.206862] echo "# Stack Selection" > STACK_SELECTION.md
+STDOUT:
+
+Return code: 0
+
+[2025-04-11T16:04:27.521680] echo "## Selected Stack: JS/TS (Next.js + Express)" >> STACK_SELECTION.md
+STDOUT:
+
+Return code: 0
+
+[2025-04-11T16:04:48.526572] echo "## Required Dependencies" >> STACK_SELECTION.md
+STDOUT:
+
+Return code: 0
+
+[2025-04-11T16:05:08.867879] echo "- Node.js v18+" >> STACK_SELECTION.md
+STDOUT:
+
+Return code: 0
+
+[2025-04-11T16:05:29.154928] echo "- TypeScript" >> STACK_SELECTION.md
+STDOUT:
+
+Return code: 0
+
+[2025-04-11T16:05:50.569895] type STACK_SELECTION.md
+STDOUT:
+"# Stack Selection" 
+"## Selected Stack: JS/TS (Next.js + Express)" 
+"## Required Dependencies" 
+"- Node.js v18+" 
+"- TypeScript" 
+
+Return code: 0
+
